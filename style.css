@@ -1,10 +1,90 @@
 body {
+  margin: 0 auto;
+  padding: 0 10%;
   font-family: "Abril Fatface", cursive;
   font-family: "Hind Siliguri", sans-serif;
   font-family: "Lobster", cursive;
   font-family: "Poppins", sans-serif;
 }
 
-.top_header {
+/*.top_header {
   font-family: Abril Fatface;
+}*/
+
+section {
+  display: flex;
+  margin: 5% 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h1 span {
+  color: orange;
+}
+
+p {
+  padding: 20px 0;
+}
+
+.top_header {
+  box-shadow: -5px 0px 0px 0px orangered;
+  padding-left: 2%;
+}
+
+#buttons {
+  text-decoration: none;
+  background-image: linear-gradient(orange, orangered);
+  color: white;
+  padding: 10px 40px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#buttons:hover {
+  background-image: linear-gradient(#c32306, orange);
+}
+
+img {
+  width: 80%;
+  border-radius: 200%;
+  border: 5px solid #ffa60000;
+  outline: 5px solid orangered;
+  margin: 20px auto;
+  display: flex;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.box_1 {
+  background-color: #fde1d7;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.box_2 {
+  background-color: #d7fde6;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.box_3 {
+  background-color: #d6d2ff;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+  section {
+    flex-direction: column;
+  }
+  div {
+    text-align: center;
+  }
 }
