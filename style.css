@@ -5,11 +5,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-#main {
-  padding: 0 10%;
-}
-
 section {
+  padding: 0 10%;
   display: flex;
   margin: 3% 0;
 }
@@ -123,6 +120,18 @@ footer {
 footer h1 {
   font-family: Lobster;
   margin-bottom: -15px;
+}
+
+.bg_dotted_left {
+  background-image: url("https://www.miamidesigndistrict.net/map/tiles/1/tile_5_14-19.png");
+  background-repeat: no-repeat;
+  background-position: left -100px bottom -30px;
+}
+
+.bg_dotted_right {
+  background-image: url("https://www.miamidesigndistrict.net/map/tiles/1/tile_5_14-19.png");
+  background-repeat: no-repeat;
+  background-position: right -100px bottom -30px;
 }
 
 @media (max-width: 800px) {
