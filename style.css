@@ -137,6 +137,5 @@ footer h1 {
 @media (max-width: 800px) {
   section {
     flex-direction: column;
-    text-align: center;
   }
 }
